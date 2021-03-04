@@ -5,9 +5,9 @@ var cognomeUtente = prompt("Inserisci il tuo cognome");
 // Aggiunsta del cognome dell'user nella lista dei cognomi
 listaCognomi.push(cognomeUtente);
 //Uniformare il lowercase
-
+// listaCognomi = listaCognomi.toLowerCase();
 // Riordino dei cognomi in ordine alfabetico
 listaCognomi.sort();
 // Stampa della lista
 console.log(listaCognomi);
-console.log(listaCognomi.indexOf(cognomeUtente));
+console.log(listaCognomi.indexOf(cognomeUtente) + 1);
